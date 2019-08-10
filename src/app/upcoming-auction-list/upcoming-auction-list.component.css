@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+}
+
+#ual{
+    margin-top: 500px;
+    clear: both;
+}
+ 
+.tp-card {
+   text-align: center;
+   max-width: 500px;
+   max-height: 200px;
+   margin-left: 40px;
+   margin-top:70px;
+   flex-direction: row;
+   float: left;
+   padding: 50px;
+   
+}
+.tp-header-image {
+   background-image: url('https://www.tutorialspoint.com/materialize/src/html5-mini-logo.jpg');
+   background-size: cover;
+}
+button{
+    background-color: dodgerblue;
+}
