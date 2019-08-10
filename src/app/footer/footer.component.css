@@ -1,0 +1,15 @@
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.one{
+   float: left;
+   padding-left: 180px;
+   font-size: 28px;
+}
+.text{
+    clear: both;
+    text-align: center
+}

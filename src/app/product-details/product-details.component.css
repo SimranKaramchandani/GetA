@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+}
+
+.tp-card {
+   max-width: 320px;
+   max-height: 300px;
+   margin-left: 40px;
+   flex-direction: row;
+   float: left;
+   padding: 50px;
+   
+}
+.tp-header-image {
+   background-image: url('https://www.tutorialspoint.com/materialize/src/html5-mini-logo.jpg');
+   background-size: cover;
+}
+button{
+    background-color: dodgerblue;
+}

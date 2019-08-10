@@ -1,0 +1,16 @@
+body{
+    background-color: black
+}
+nav {
+  overflow: hidden;
+  background-color:black;
+}
+
+nav a {
+	margin: 25px;
+	font-size: 25px;
+  color: white;
+  text-align: center;
+  padding:50px;
+  text-decoration: none;
+}

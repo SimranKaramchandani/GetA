@@ -1,0 +1,43 @@
+<h2>Live Auction</h2>
+
+<mat-card class = "tp-card">
+    <mat-card-header>
+       <!--<div mat-card-avatar class = "tp-header-image"></div>-->
+       <!--<mat-card-title>HTML5</mat-card-title>
+       <mat-card-subtitle>HTML Basics</mat-card-subtitle>-->
+    </mat-card-header>
+    <img mat-card-image src = "https://www.tutorialspoint.com/materialize/src/html5-mini-logo.jpg" alt = "Learn HTML5">
+    <mat-card-content>
+       <p>
+           {{product.productname}}<br>
+          current Bid is {{product.productcurrentbid}}
+ 
+       </p>
+    </mat-card-content>
+    <mat-card-actions>
+       <button mat-button>Tap to Bid</button>
+       <!--<button mat-button>SHARE</button>-->
+    </mat-card-actions>
+ </mat-card>
+
+<!-- <app-product-details  *ngFor="let p of products" [product]="p">
+  p=p.filter((p)=>product.productauctiondate=jstoday).shift());
+</app-product-details> -->
+
+<!--<table>
+    <tr>
+        <td> Product Id </td>
+        <td> Product Name </td>
+        <td> Product Seller </td>
+        <td> Product Price </td>
+    </tr>
+
+    <tr *ngFor="let p of products">
+         <td> {{p.productid}} </td>
+        <td> {{p.productname}} </td>
+        <td> {{p.productseller}}</td>
+        <td> {{p.productprice}} </td>
+    </tr>
+</table>-->
+
+
