@@ -13,6 +13,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { UpcomingAuctionListComponent } from './upcoming-auction-list/upcoming-auction-list.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FilterPipe } from './filter.pipe';
+import { LoginComponent } from './login/login.component';
 // import {MdCardModule} from '@angular/material'
 
 @NgModule({
@@ -25,7 +26,8 @@ import { FilterPipe } from './filter.pipe';
     LiveAuctionListComponent,
     ProductDetailsComponent,
     UpcomingAuctionListComponent,
-    FilterPipe
+    FilterPipe,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

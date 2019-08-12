@@ -1,9 +1,8 @@
-body{
-    background-color: black
-}
+
 nav {
   overflow: hidden;
-  background-color:black;
+  background-color:#8F317F;
+  margin-top: -10px;
 }
 
 nav a {
